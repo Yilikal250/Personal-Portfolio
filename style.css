@@ -3,9 +3,10 @@
 /** @format */
 
 body {
-  position: absolute;
-  height: 590px;
+  height: 750px;
   width: 375px;
+  margin-top: 0%;
+  margin-left: 0%;
 }
 
 .upper {
@@ -17,7 +18,7 @@ body {
   justify-content: space-between;
   display: flex;
   width: 375px;
-  height: 92px;
+  height: 50px;
   background: #3c3a39;
 }
 
@@ -25,7 +26,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 10px;
   margin-right: 0;
   width: 40px;
@@ -37,17 +38,22 @@ body {
 .lower {
   background-color: black;
   padding-top: 10px;
+  background-image: url("Illustration(1).png");
+  background-repeat: no-repeat;
+  background-position-x: 228px;
+  background-position-y: 240px;
+  padding-bottom: 80px;
 }
 
 h1 {
-  padding-left: 8px;
+  padding-top: 120px;
+  padding-left: 0;
   flex-direction: row;
   width: 327px;
   height: 124px;
   left: 24px;
   top: 120px;
   font-family: "Crete Round", serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
@@ -56,11 +62,11 @@ h1 {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px;
+  margin: 20px;
 }
 
 h2 {
-  padding-left: 8px;
+  padding-left: 0;
   width: 327px;
   height: 27px;
   left: 24px;
@@ -76,12 +82,13 @@ h2 {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px;
+  margin: 20px;
 }
 
 p {
+  padding-left: 10px;
   color: white;
-  margin-left: 8px;
+  margin-right: 20px;
   /* stylelint-disable-next-line font-family-name-quotes */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -116,7 +123,7 @@ p {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -125,29 +132,23 @@ p {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 40px 10px  20px;
+  margin: 16px 15px;
 }
 
 .icons img {
   height: 20px;
   width: 17px;
-  padding: 7px;
-  background-color: white;
-  border-radius: 40%;
-  margin-bottom: 100px;
-  margin-right: 13px;
-  margin-left: 10px;
+  padding: 0 px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 20px;
+  justify-content: space-between;
+  list-style-type: none;
 }
 
 #icondrop:hover {
   color: white;
   border: 10px solid white;
-  transition: 0.5s;
-}
-
-.icons img:hover {
-  color: white;
-  border: 10px solid blueviolet;
   transition: 0.5s;
 }
 
@@ -157,4 +158,10 @@ p {
   right: 20.52%;
   top: 35.59%;
   bottom: 9.36%;
+}
+
+ul {
+  padding: 5px;
+  text-decoration: none;
+  display: flex;
 }
