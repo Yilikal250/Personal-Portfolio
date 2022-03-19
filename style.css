@@ -336,11 +336,22 @@ li {
   color: black;
   width: 375px;
   justify-items: center;
-  margin-top: 90px;
+  margin-top: 150px;
   background: #1c1a19;
   background-image: url("aboutme.png");
   background-repeat: no-repeat;
   background-position: right 0 top 340px;
+}
+
+.skills {
+  background-image: url("aboutmepic.png");
+  background-repeat: no-repeat;
+  background-position-x: 220px;
+  background-position-y: -50px;
+}
+
+.post-aboutme {
+  height: 470px;
 }
 
 .post-aboutme h1 {
@@ -351,6 +362,7 @@ li {
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
+  margin-top: 30px;
 }
 
 .post-aboutme p {
@@ -387,10 +399,11 @@ li {
   left: 0;
   top: 107px;
   border: 1px solid #fff;
-  margin-top: 170px;
-  margin-bottom: 70px;
+  margin-top: 220px;
+  margin-bottom: 80px;
 }
 
+/* stylelint-disable-next-line no-duplicate-selectors */
 .skills {
   display: flex;
   flex-direction: column;
