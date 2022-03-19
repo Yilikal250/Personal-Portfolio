@@ -229,6 +229,22 @@ li {
   color: #091e42;
 }
 
+.postb {
+  background: #ff6b00;
+  width: 30%;
+  height: 40px;
+  margin-top: 17px;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-style: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+  color: white;
+  list-style-type: none;
+  margin-left: 12px;
+}
+
 #post1btn {
   background: #ff6b00;
   width: 124px;
