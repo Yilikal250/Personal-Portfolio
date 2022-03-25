@@ -1,10 +1,10 @@
 # Project Name:-
 
-> Portfolio
+> Personal portfolio
 
 ## Description the project:-
 
-> Personal portfolio of a Software devleloper
+> Personal portfolio contact form
 
 Built With
 
@@ -19,6 +19,9 @@ Built With
 - Twitter: [@@TeshomeYilikal](https://twitter.com/twitterhandle)
 - LinkedIn: [teshomeyilikal250@gmail.com](https://linkedin.com/in/linkedinhandle)
 
+👤 **Author1**:- **Santiago Cárdenas **
+
+- GitHub: [Santiago220991 ](https://github.com/githubhandle)
 
 ## 🤝 Contributing
 
@@ -42,4 +45,5 @@ Microverse is the best place to learn !!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
 
