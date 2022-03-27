@@ -1,11 +1,5 @@
 # Project Name:-
 
-> Personal portfolio
-
-## Description the project:-
-
-> Personal portfolio contact form
-
 Built With
 
 -Major languages:-Html and Css
