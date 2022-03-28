@@ -111,6 +111,7 @@ html,body{
   align-items: center;
 }
 
+
 .middle-1-container button {
 flex-wrap: wrap;   
 width: auto;
@@ -127,7 +128,7 @@ line-height:20px;
 color: black;
 font-family: 'Inter', sans-serif;
   
-}
+} 
 
 #see-button-one{
   height: 48px;
