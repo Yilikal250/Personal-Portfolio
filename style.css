@@ -105,6 +105,7 @@ body {
   line-height: 44px;
   display: flex;
   align-items: center;
+  margin-left: 14px;
 }
 
 .middle-1-container button {
@@ -122,6 +123,8 @@ body {
   line-height: 20px;
   color: black;
   font-family: Inter, sans-serif;
+  margin-left: 10px;
+  list-style: none;
 }
 
 #see-button-one {
@@ -138,6 +141,7 @@ body {
   font-family: Inter, sans-serif;
   font-size: 16px;
   line-height: 24px;
+  margin-left: 10px;
 }
 
 .middle-1-container1 {
