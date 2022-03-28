@@ -2,7 +2,7 @@
   "devDependencies": {
     "@hint/configuration-accessibility": "^2.0.16",
     "hint": "^6.1.10",
-    "stylelint": "^14.6.0",
+    "stylelint": "^14.6.1",
     "stylelint-config-standard": "^25.0.0"
   }
 }
