@@ -12,6 +12,10 @@ body {
   height: 92px;
 }
 
+.desktop-version {
+  display: none;
+}
+
 .toolbar img {
   margin-top: 62px;
   margin-right: 18.5px;
@@ -34,6 +38,11 @@ body {
   background-image: url("./illustration(1).png");
   background-repeat: no-repeat;
   background-position: bottom right;
+}
+
+.myrecent hr {
+  border: 1px solid #212121;
+  height: fit-content;
 }
 
 .upper-body-text h1 {
@@ -94,6 +103,10 @@ body {
   margin-right: auto;
 }
 
+.middle-image1 {
+  display: none;
+}
+
 .middle-1-container {
   margin-left: 24px;
   margin-right: 24px;
@@ -123,7 +136,7 @@ body {
   line-height: 20px;
   color: black;
   font-family: Inter, sans-serif;
-  margin-left: 10px;
+  margin-left: 13px;
   list-style: none;
 }
 
@@ -148,7 +161,7 @@ body {
   background-image: url("./watermarker.png");
   width: 327px;
   height: 386px;
-  margin-top: 24px;
+  margin-top: 37px;
   margin-left: auto;
   margin-right: auto;
   /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
@@ -220,12 +233,10 @@ body {
 .about-container {
   height: 1901px;
   background-color: black;
-}
-
-.about {
-  background-image: url("./aboutmepic.png");
+  background-image: url("aboutmepic.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: center right;
+  background-position-y: 350px;
 }
 
 .about h1 {
@@ -311,7 +322,8 @@ body {
 }
 
 .rectangle-container {
-  margin-left: 90px;
+  margin-left: 100px;
+  display: block ruby;
 }
 
 .rectangle {
@@ -326,7 +338,8 @@ body {
 }
 
 .circle-container {
-  margin-left: 125px;
+  margin-left: 135px;
+  display: block ruby;
 }
 
 .circle {
@@ -338,4 +351,5 @@ body {
   border-radius: 150px;
   margin-block-end: auto;
   margin-right: 12px;
+}
 }
