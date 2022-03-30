@@ -999,8 +999,8 @@ footer li {
     display: none;
   }
 
-.desktop {
-    font-family: Inter, sans-serif;
+  .desktop {
+    font-family: "Crete Round", serif;
     font-size: 32px;
     line-height: 44px;
     display: flex;

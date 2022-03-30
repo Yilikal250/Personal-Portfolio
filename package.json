@@ -1,7 +1,6 @@
 {
   "devDependencies": {
     "@hint/configuration-accessibility": "^2.0.16",
-    "@hint/hint-no-inline-styles": "^1.0.7",
     "hint": "^6.1.10",
     "stylelint": "^14.6.1",
     "stylelint-config-standard": "^25.0.0"
