@@ -115,7 +115,7 @@ body {
 }
 
 .middle-1-container {
-  margin-left: 24px;
+  margin-left: 43px;
   margin-right: 24px;
 }
 
@@ -648,7 +648,7 @@ footer li {
   }
 
   .upper-body {
-    background-image: url("/upperimage.png");
+    background-image: url("upperimage.png");
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -1096,4 +1096,10 @@ footer li {
     background: #fff5e1;
     color: #e05304;
   }
+
+  .middle-1-container {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  
 }
