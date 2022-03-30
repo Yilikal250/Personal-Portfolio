@@ -1,10 +1,11 @@
 # Project Name:-
 
-> Responsive Portfolio
+> Portfolio
 
 ## Description the project:-
 
-> Personal portfolio of a Software devleloper this is  a ressponsive web with a mobile version and disktop version please try to clone the file and open the file that has aname index.html and there you will find the responsive personal portfolio. 
+> Portfolio contact form added with the help of Emmanuel
+> Add your full name email and discription on the text area and email will be sent directly.'
 
 Built With
 
@@ -19,7 +20,9 @@ Built With
 - Twitter: [@@TeshomeYilikal](https://twitter.com/twitterhandle)
 - LinkedIn: [teshomeyilikal250@gmail.com](https://linkedin.com/in/linkedinhandle)
 
+👤 **Author1**:- **Emmanuel Orji-Ihuoma**
 
+- LinkedIn: [emmanuelorji0001@gmail.com](https://linkedin.com/in/linkedinhandle)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -42,4 +45,5 @@ Microverse is the best place to learn !!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
 
