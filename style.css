@@ -377,6 +377,7 @@ footer textarea {
   padding: 14px 40px;
   color: #3c3a39;
   height: 140px;
+  margin-bottom: 36px;
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
@@ -388,6 +389,7 @@ footer button {
   font-family: Inter, sans-serif;
   font-weight: 700;
   font-size: 17px;
+  margin-bottom: 136px;
 }
 
 #footer-divide {
