@@ -4,7 +4,7 @@
 
 ## Description the project:-
 
-> Personal portfolio of a Software devleloper this is  a ressponsive web with a mobile version and disktop version please try to clone the file and open the file that has aname index.html and there you will find the responsive personal portfolio. 
+> Personal portfolio of a Software devleloper this is  a ressponsive web with a mobile version and desktop version please try to clone the file and open the file that has aname index.html and there you will find the responsive personal portfolio that is responsive. 
 
 Built With
 
