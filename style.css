@@ -1000,7 +1000,7 @@ footer li {
   }
 
   .desktop {
-    font-family: "Crete Round", serif;
+    font-family: Crete Round, serif;
     font-size: 32px;
     line-height: 44px;
     display: flex;
