@@ -602,10 +602,12 @@ footer li {
     flex-direction: row;
     align-items: center;
     margin-top: 5px;
+    color: white;
   }
 
   .toolbar img {
     margin-right: 38.5px;
+    color: white;
   }
 
   .desktop-menu {
