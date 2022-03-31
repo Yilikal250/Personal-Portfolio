@@ -680,7 +680,7 @@ footer li {
     background-image: url("assets/images/upperimage.png");
     background-repeat: no-repeat;
     background-size: 35%;
-    background-position-y: unset;
+    background-position-y: bottom;
   }
 
   .upper-icon {
