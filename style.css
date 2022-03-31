@@ -109,6 +109,7 @@ body {
   /* stylelint-disable-next-line declaration-block-no-duplicate-properties */
   margin-left: auto;
   margin-right: auto;
+  width: 80%;
 }
 
 .middle-image1 {
@@ -138,13 +139,12 @@ body {
   padding: 10px 12px;
   border: 1px solid #8993a4;
   box-sizing: border-box;
-  margin-right: 12px;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   color: black;
   font-family: Inter, sans-serif;
-  margin-left: 10px;
+  margin-left: 7px;
   list-style: none;
 }
 
@@ -319,7 +319,6 @@ body {
 }
 
 .daimond-container {
-  margin-left: 120px;
   margin-top: 100px;
 }
 
@@ -332,9 +331,15 @@ body {
   margin-block-end: auto;
 }
 
+.shapes-daimond {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .rectangle-container {
-  margin-left: 100px;
-  display: block ruby;
+  display: inline-flex;
 }
 
 .rectangle {
@@ -345,12 +350,20 @@ body {
   background: #ff6b00;
   margin-block-end: auto;
   margin-right: 12px;
-  margin-top: 12px;
+  margin-top: 42px;
+}
+
+.shapes-rectangle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .circle-container {
   margin-left: 135px;
-  display: block ruby;
+  display: inline-flex;
+  margin-right: auto;
 }
 
 .circle {
@@ -362,6 +375,14 @@ body {
   border-radius: 150px;
   margin-block-end: auto;
   margin-right: 12px;
+  margin-top: 42px;
+}
+
+.shapes-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .desktop-p {
@@ -378,8 +399,6 @@ footer {
 /* stylelint-disable-next-line no-descending-specificity */
 footer p {
   text-align: center;
-
-  /* margin: 120px 24px 73px 24px; */
   font-family: Inter, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -591,7 +610,7 @@ footer li {
   }
 
   .desktop-version {
-    display: ruby;
+    display: flex;
     padding-right: 156px;
     color: white;
     margin-top: 26px;
@@ -644,6 +663,7 @@ footer li {
     line-height: 32px;
     height: 123px;
     margin-right: 732px;
+    width: 550px;
   }
 
   /* stylelint-disable-next-line no-duplicate-selectors */
@@ -658,7 +678,7 @@ footer li {
   .upper-body {
     background-image: url("upperimage.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 35%;
   }
 
   .upper-icon {
@@ -683,6 +703,7 @@ footer li {
 
   .middle-image1 {
     display: flex;
+    width: 100%;
   }
 
   .myrecent h1 {
@@ -719,10 +740,35 @@ footer li {
 
   .middle-1-container h1 {
     margin-top: 0;
+    width: 70%;
   }
 
   .middle-1-container p {
     margin-left: 14px;
+  }
+
+  .middle-1-container {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 70%;
+  }
+
+  .middle-1-container button {
+    flex-wrap: wrap;
+    width: auto;
+    height: 40px;
+    margin-block-end: 10px;
+    align-items: center;
+    padding: 10px 12px;
+    border: 1px solid #8993a4;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+    font-family: Inter, sans-serif;
+    margin-left: 12px;
+    list-style: none;
   }
 
   #second-container {
@@ -749,8 +795,8 @@ footer li {
     background-image: url("lowerimage.png");
     background-repeat: no-repeat;
     background-position: center right;
-    background-position-y: 100px;
-    background-size: 672px 352px;
+    background-position-y: 190px;
+    background-size: 40%;
   }
 
   .about h1 {
@@ -797,6 +843,12 @@ footer li {
     margin-top: 209px;
   }
 
+  .daimond-container {
+    margin-top: 100px;
+    display: flex;
+    margin-left: 120px;
+  }
+
   .daimond {
     width: 18px;
     height: 18px;
@@ -804,6 +856,7 @@ footer li {
     background: #ff6b00;
     transform: rotate(-45deg);
     margin-block-end: auto;
+    margin-top: 42px;
   }
 
   .rectangle {
@@ -814,7 +867,7 @@ footer li {
     background: #ff6b00;
     margin-block-end: auto;
     margin-right: 12px;
-    margin-top: 12px;
+    margin-top: 39px;
   }
 
   .circle {
@@ -826,24 +879,30 @@ footer li {
     border-radius: 150px;
     margin-block-end: auto;
     margin-right: 12px;
+    margin-top: 39px;
   }
 
   .about-discription-container {
     display: flex;
     margin-top: 146px;
+    justify-content: space-around;
+    width: 84%;
   }
 
   .shapes-daimond {
     margin-top: -90px;
     margin-left: 20px;
+    align-items: baseline;
   }
 
   .shapes-rectangle {
     margin-left: 120px;
+    align-items: baseline;
   }
 
   .shapes-circle {
     margin-left: 120px;
+    align-items: baseline;
   }
 
   .about-container h3 {
@@ -862,13 +921,13 @@ footer li {
   }
 
   .circle-container {
+    display: flex;
     margin-left: 120px;
-    display: block ruby;
   }
 
   .rectangle-container {
-    margin-left: 115px;
-    display: block ruby;
+    margin-left: 120px;
+    display: flex;
   }
 
   /* stylelint-disable-next-line no-duplicate-selectors */
@@ -1105,6 +1164,7 @@ footer li {
     color: #e05304;
   }
 
+  /* stylelint-disable-next-line no-duplicate-selectors */
   .middle-1-container {
     margin-left: 24px;
     margin-right: 24px;
