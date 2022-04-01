@@ -444,6 +444,7 @@ footer button {
   font-size: 17px;
   margin-bottom: 130px;
   margin-top: 24px;
+
 }
 
 #footer-divide {
@@ -1171,4 +1172,20 @@ footer li {
     margin-left: 24px;
     margin-right: 24px;
   }
+
+  .below:hover {
+    background: #fff5e1;
+    color: #f55800;
+    border-radius: 50%;
+  }
+
+  .below{
+    transition-property: backround, border-radius;
+
+    background: #e05304;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    border-radius: 6px;
+  }
+
 }
