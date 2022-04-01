@@ -1191,4 +1191,15 @@ footer li {
     transform: scale(1.5);
     transition-duration: 1s;/* Equal to scaleX(0.7) scaleY(0.7) */
   }
+.upper-body-text p:hover {
+  transform: translate(100px);
+}
+
+.upper-body-text h1:hover {
+  transform: translate(100px);
+}
+
+.upper-body-text h2:hover {
+  transform: translate(100px);
+}
 }
