@@ -1171,5 +1171,24 @@ footer li {
     margin-left: 24px;
     margin-right: 24px;
   }
-  
+
+  .below:hover {
+    background: #fff5e1;
+    color: #f55800;
+    border-radius: 50%;
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .below {
+    transition-property: backround, border-radius;
+    background: #e05304;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    border-radius: 56px;
+  }
+
+  .middle-1-container1:hover {
+    transform: scale(1.5);
+    transition-duration: 1s;/* Equal to scaleX(0.7) scaleY(0.7) */
+  }
 }
