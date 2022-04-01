@@ -1090,85 +1090,126 @@ footer li {
   .middle-1-container button:active {
     background: #e05304;
     color: #fff5e1;
+    transition-duration: 1s;
   }
 
   .middle-1-container button:hover {
     background: #f55800;
     color: #fff5e1;
+    transition-duration: 1s;
   }
 
   .middle-1-container1-btn:active {
     background: #e05304;
     color: #fff5e1;
+    transition-duration: 1s;
   }
 
   .middle-1-container1-btn:hover {
     background: #f55800;
     color: #fff5e1;
+    transition-duration: 1s;
   }
 
   .see-button-one:active {
     background: #fff5e1;
     color: #e05304;
+    transition-duration: 1s;
   }
 
   .see-button-one:hover {
     background: #fff5e1;
     border: 1px solid #f55800;
     color: #f55800;
+    transition-duration: 1s;
   }
 
   .see-button-one1:active {
     background: #fff5e1;
     color: #e05304;
+    transition-duration: 1s;
   }
 
   .see-button-one1:hover {
     background: #fff5e1;
     border: 1px solid #f55800;
     color: #f55800;
+    transition-duration: 1s;
   }
 
   .below:hover:active {
     background: #fff5e1;
     color: #e05304;
+    transition-duration: 1s;
   }
 
   /* stylelint-disable-next-line no-descending-specificity */
   .below:hover {
     background: #fff5e1;
     color: #f55800;
+    transition-duration: 1s;
   }
 
   .upper-button:hover {
     background: #f55800;
     color: #fff5e1;
+    transition-duration: 1s;
   }
 
   .upper-button:hover:active {
     background: #fff5e1;
     color: #e05304;
+    transition-duration: 1s;
   }
 
   /* stylelint-disable-next-line no-descending-specificity */
   .upper-button:disabled {
     background: #fff5e1;
     color: #e05304;
+    transition-duration: 1s;
   }
 
   #see1:hover {
     background: #fff5e1;
     color: #f55800;
+    transition-duration: 1s;
   }
 
   #see1:hover:active {
     background: #fff5e1;
     color: #e05304;
+    transition-duration: 1s;
   }
 
   /* stylelint-disable-next-line no-duplicate-selectors */
   .middle-1-container {
     margin-left: 24px;
     margin-right: 24px;
+  }
+
+  .middle-1-container1:hover {
+    transform: scale(1.5);
+    transition-duration: 1s;/* Equal to scaleX(0.7) scaleY(0.7) */
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .upper-body-text h1:hover {
+    transform: rotate(360deg);
+    transition-duration: 3s;
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .upper-body-text p:hover {
+    transform: translate(100px);
+  }
+
+  .upper-body-text h2:hover {
+    transform: translate(100px);
+  }
+
+  /* stylelint-disable-next-line no-duplicate-selectors */
+  .middle-image1:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
   }
 }
