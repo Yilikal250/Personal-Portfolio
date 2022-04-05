@@ -1215,6 +1215,7 @@ footer li {
     transform: translate(100px);
   }
 
+  /* stylelint-disable-next-line no-descending-specificity */
   .upper-body-text h2:hover {
     transform: translate(100px);
   }
