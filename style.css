@@ -88,7 +88,7 @@ body {
   margin: 10px;
 }
 
-.middle-container h1 {
+.middle-container h2 {
   text-align: center;
   font-size: 40px;
   line-height: 52px;
@@ -177,7 +177,19 @@ body {
   margin-bottom: 24px;
 }
 
-.middle-1-container1 h1 {
+.middle-1-container1 h2 {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-top: 84px;
+}
+
+.middle-1-container1 h3 {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
@@ -251,7 +263,7 @@ body {
   padding-bottom: 142px;
 }
 
-.about h1 {
+.about h2 {
   font-family: "Crete Round", serif;
   font-weight: 400;
   font-size: 72px;
@@ -291,7 +303,7 @@ body {
   line-height: 24px;
 }
 
-.about-container h2 {
+.about-container h3 {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -303,7 +315,7 @@ body {
   margin-bottom: auto;
 }
 
-.about-container h3 {
+.about-container h4 {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -708,7 +720,7 @@ footer li {
     width: 100%;
   }
 
-  .myrecent h1 {
+  .myrecent h2 {
     margin-top: 135px;
     height: fit-content;
     margin-left: 15px;
@@ -740,7 +752,7 @@ footer li {
     margin-left: 26px;
   }
 
-  .middle-1-container h1 {
+  .middle-1-container h2 {
     margin-top: 0;
     width: 70%;
   }
@@ -801,7 +813,7 @@ footer li {
     background-size: 40%;
   }
 
-  .about h1 {
+  .about h2 {
     font-family: "Crete Round", serif;
     font-weight: 400;
     font-size: 72px;
@@ -907,7 +919,7 @@ footer li {
     align-items: baseline;
   }
 
-  .about-container h3 {
+  .about-container h4 {
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -954,7 +966,7 @@ footer li {
     margin-top: 345px;
   }
 
-  #first-container h1 {
+  #first-container h2 {
     display: none;
   }
 
@@ -1203,6 +1215,7 @@ footer li {
     transform: translate(100px);
   }
 
+  /* stylelint-disable-next-line no-descending-specificity */
   .upper-body-text h2:hover {
     transform: translate(100px);
   }
