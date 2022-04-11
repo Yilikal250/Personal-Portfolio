@@ -84,12 +84,18 @@ Built With
 - Twitter: [@@TeshomeYilikal](https://twitter.com/twitterhandle)
 - LinkedIn: [teshomeyilikal250@gmail.com](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author1**:- **Davis Katana**
+👤 **Author2**:- **Davis Katana**
 
 - GitHub: [@DavyKn](https://github.com/DavyKn)
 - Github livesite: ( https://davykn.github.io/my_portfolio/)
 - Twitter: [@davykk04](https://twitter.com/davykk04)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/davis-katana-246600159/)
+
+👤 **Author3**:- **Luca Benavente**
+
+- GitHub: [@lucabenaventew](https://github.com/lucabenaventew)
+- Twitter: [@BenaventeLuca](https://twitter.com/BenaventeLuca)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/)
 
 ## 🤝 Contributing
 
