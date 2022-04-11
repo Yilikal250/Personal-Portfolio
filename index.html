@@ -14,6 +14,8 @@
     href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@200;600&family=Poppins:wght@200&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  
  </head>
 
 <body>
@@ -21,7 +23,7 @@
     <div class="toolbar">
       <div class="name">Yilikal Teshome</div>
       <div>
-        <img id="drop" src="assets/images/dropbox.png" alt="Drop Box" />
+        <img onclick="togglePopup()" id="drop" src="assets/images/dropbox.png" alt="Drop Box" />
 
       </div>
       <div class="desktop-version">
@@ -30,7 +32,25 @@
         <div class="desktop-menu">Contact</div>
         <div><img src="assets/images/post.png" alt="Mail Box"></div>
       </div>
-
+      <div class="popup" id="popup-1" >
+        <div class="close-button-container">
+          <button type="button"  class="close-button" onclick="togglePopup()"> &times;</button>
+        </div>
+       
+         
+          <div class="mobile-menu" onclick="togglePopup()" > <a href="#middlesec">Portfolio</a> </div>
+          <hr>
+          <div class="mobile-menu" onclick="togglePopup()"> <a href="#aboutme">About</a>  </div>
+          <hr>
+          <div class="mobile-menu" onclick="togglePopup()"> <a href="#Contact-me">Contact</a> </div>
+          <hr>
+          <div class="drop-bottom">
+            <hr>
+          </div>
+       
+       
+        
+ </div>
     </div>
     <div class="upper-body">
       <div class="upper-body-text">
@@ -61,7 +81,7 @@
   </div>
 
 
-  <section class="middle-section">
+  <section class="middle-section" id="middlesec">
     <div class="middle-image1-container">
       <img class="middle-image1" src="assets/images/bigimageplaceholder.png" alt="Image place holders">
       <div class="middle-1-container">
@@ -199,7 +219,7 @@
 
       </div>
 
-      <div class="about-discription-container">
+      <div class="about-discription-container" id="aboutme">
 
         <div class="shapes-daimond">
           <div class="daimond-container">
