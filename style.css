@@ -30,7 +30,7 @@ body {
 }
 
 .popup {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -43,6 +43,7 @@ body {
   box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
   transform: translate(-100%, -100%);
   visibility: hidden;
+  z-index: 1;
 }
 
 .popup hr {
@@ -129,7 +130,7 @@ body {
   background-repeat: no-repeat;
   background-position: bottom right;
   background-position-y: 225px;
-  background-position-x: 96%;
+  background-position-x: 99%;
 }
 
 .myrecent hr {
