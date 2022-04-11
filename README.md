@@ -14,11 +14,6 @@
 > The link for the portfolio is  " https://yilikal250.github.io/Portfolio/" 
 
 
-We have checked and corrected the accessibility based on the checking criteria provided in the accessibility exercise. 
-List all points that you have checked, i.e:
-
-
-
 Built With
 
 -Major languages:-Html and Css
