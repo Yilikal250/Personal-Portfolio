@@ -2,6 +2,10 @@
   "devDependencies": {
     "@hint/configuration-accessibility": "^2.0.16",
     "@hint/hint-no-inline-styles": "^1.0.7",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
     "hint": "^6.1.10",
     "stylelint": "^14.6.1",
     "stylelint-config-standard": "^25.0.0"

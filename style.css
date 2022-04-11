@@ -18,11 +18,94 @@ body {
   height: 72px;
 }
 
+.popup.active {
+  transition: 200ms ease-in-out;
+  transform: scale(1);
+  visibility: visible;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: #fff5e1;
+}
+
+.popup {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 0;
+  width: 100%;
+  height: 662px;
+  background: #3c3a39;
+  mix-blend-mode: normal;
+  color: white;
+  box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
+  transform: translate(-100%, -100%);
+  visibility: hidden;
+}
+
+.popup hr {
+  margin-left: 24px;
+  margin-right: 24px;
+  height: 1px;
+}
+
+.close-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 38px;
+}
+/* stylelint-disable-next-line no-duplicate-selectors */
+.close-button {
+  width: fit-content;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #3c3a39;
+  font-size: 1.25rem;
+  font-family: Inter, sans-serif;
+  color: #e5e5e5;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
+  margin-top: 60px;
+}
+
+.mobile-menu {
+  text-decoration: none;
+  height: 24px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+  margin-bottom: 25px;
+  margin-left: 40px;
+}
+
+.drop-bottom hr {
+  margin-top: 47px;
+  background-color: black;
+  height: 5px;
+  margin-right: 100px;
+  margin-left: 100px;
+  width: 200px;
+}
+
+.drop-bottom {
+  height: 57px;
+  margin-top: 320px;
+  background: #e5e5e5;
+}
+
 .desktop-version {
   display: none;
 }
 
 .toolbar img {
+  cursor: pointer;
   margin-right: 38px;
   margin-top: 26px;
 }
@@ -46,6 +129,7 @@ body {
   background-repeat: no-repeat;
   background-position: bottom right;
   background-position-y: 225px;
+  background-position-x: 96%;
 }
 
 .myrecent hr {
@@ -618,6 +702,10 @@ footer li {
     display: none;
   }
 
+  .popup {
+    display: none;
+  }
+
   .name {
     margin-left: 154px;
   }
@@ -693,6 +781,7 @@ footer li {
     background-repeat: no-repeat;
     background-size: 35%;
     background-position-y: bottom;
+    background-position-x: right;
   }
 
   .upper-icon {
