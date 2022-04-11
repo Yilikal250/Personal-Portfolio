@@ -1,73 +1,21 @@
 # Project Name:-
 
-> Responsive Portfolio
+> Drop dawn popup menu
 
 ## Description the project:-
+>
 
-> Personal portfolio of a Software devleloper this is  a ressponsive web with a mobile version and desktop version please try to clone the file and open the file that has aname index.html and there you will find the responsive personal portfolio that is responsive. 
-> The link for the portfolio is  " https://yilikal250.github.io/Portfolio/"
+> We have added a popup on the menu and 
+    When the you click (or taps) the hamburger button, the mobile menu appears.
+    When the you click (or taps) the close (X) button, the mobile menu disappears.
+    When the you click (or taps) any of the mobile menu options, the mobile menu disappears.
+    When the you click (or taps) any of the mobile menu options, a correct part of the page is displayed.
+ 
+> The link for the portfolio is  " https://yilikal250.github.io/Portfolio/" 
 
-@Yilikal250 
-@DavyKn
-
-We have checked and corrected the accessibility based on the checking criteria provided in the accessibility exercise. 
-List all points that you have checked, i.e:
-
- - [ ] Page titles:- 
-We have checked that there is a title that adequately and briefly describes the content of the page.
-   
-- [ ]  Image text alternatives** (<img alt="alt text">):-
-Every image has an alternative text.
-    
-- [ ] Text headings:-
-All text that looks like a heading is marked up as a heading.
-All text that is marked up as a heading is really a conceptual section heading.
-    
-- [ ] Color contrast:-
-The tool shows the page in grayscale. 
-The tool lets you select a text color and a background color,
-   
-
-- [ ]  Resize:-
-
-  Our page is responsive and the layout works in different screen sizes.
-  Text doesn't disappear or get cut off.
-
-- [ ]  Interaction:-
-  Our webpage is keyboard accessible 
-    
-- [ ]  The basic structure of the page 
-headings are right above the information they apply to.@Yilikal250 
-@DavyKn
 
 We have checked and corrected the accessibility based on the checking criteria provided in the accessibility exercise. 
 List all points that you have checked, i.e:
-
- - [ ] Page titles:- 
-We have checked that there is a title that adequately and briefly describes the content of the page.
-   
-- [ ]  Image text alternatives** (<img alt="alt text">):-
-Every image has an alternative text.
-    
-- [ ] Text headings:-
-All text that looks like a heading is marked up as a heading.
-All text that is marked up as a heading is really a conceptual section heading.
-    
-- [ ] Color contrast:-
-The tool shows the page in grayscale. 
-The tool lets you select a text color and a background color,
-   
-
-- [ ]  Resize:-
-
-   Our page is responsive and the layout works in different screen sizes.
-  Text doesn't disappear or get cut off.
-
-- [ ]  Interaction:-
-  Our webpage is keyboard accessible 
-    
-- [ ]  The basic structure of the page 
-headings are right above the information they apply to.
 
 
 
@@ -83,13 +31,6 @@ Built With
 - GitHub: [@Yilikal250](https://github.com/githubhandle)
 - Twitter: [@@TeshomeYilikal](https://twitter.com/twitterhandle)
 - LinkedIn: [teshomeyilikal250@gmail.com](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**:- **Davis Katana**
-
-- GitHub: [@DavyKn](https://github.com/DavyKn)
-- Github livesite: ( https://davykn.github.io/my_portfolio/)
-- Twitter: [@davykk04](https://twitter.com/davykk04)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/davis-katana-246600159/)
 
 👤 **Author3**:- **Luca Benavente**
 
