@@ -6,7 +6,7 @@ function togglePopup() {
 }
 
 // eslint-disable-next-line no-undef
-Console.console.log(togglePopup());
+
 function renderFirstCard() {
   const div = document.createElement('div');
   div.className = 'middle-image1-container';
