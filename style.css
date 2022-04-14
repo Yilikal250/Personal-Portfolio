@@ -18,6 +18,35 @@ body {
   height: 72px;
 }
 
+.pop.active {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.middle-pop {
+  position: relative;
+  height: 40px;
+  background: rgb(255 255 255 / 24%);
+  margin-left: 16px;
+  margin-right: 14px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+  margin-top: 47px;
+  width: auto;
+}
+
+.cardbtn {
+  display: flex;
+  list-style: none;
+  justify-content: left;
+  padding-left: 0;
+}
+
 .popup.active {
   transition: 200ms ease-in-out;
   transform: scale(1);
@@ -36,14 +65,130 @@ body {
   text-align: left;
   margin-top: 0;
   width: 100%;
-  height: 662px;
+  height: 100%;
   background: #3c3a39;
   mix-blend-mode: normal;
   color: white;
   box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
   transform: translate(-100%, -100%);
-  visibility: hidden;
   z-index: 1;
+  opacity: 0;
+}
+
+.popup2 {
+  position: fixed;
+  display: none;
+  width: 90%;
+  flex-direction: column;
+  text-align: left;
+  height: 748px;
+  color: white;
+  background: #fff;
+  border-style: groove;
+  transform: translate(7%, 4%);
+  z-index: 1;
+}
+
+.popup2 h2 {
+  display: none;
+}
+
+.desktop-pop {
+  display: none;
+}
+
+.mobile-pop {
+  margin-left: 16px;
+  width: 90%;
+}
+
+.popup-btn-container {
+  margin-top: 250px;
+  margin-left: 16px;
+}
+
+.popup-btn1 {
+  background: #ff6b00;
+  color: white;
+  border: none;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 140px;
+  width: 113px;
+  height: 48px;
+  background-image: url("/assets/images/Ellipse\ \(2\).png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 80px;
+  text-align: left;
+}
+
+.popup-btn2 {
+  background: #ff6b00;
+  color: white;
+  border: none;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 130px;
+  width: 159px;
+  height: 48px;
+  margin-left: 25px;
+  background-image: url("/assets/images/github.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 130px;
+}
+
+.popup2 h1 {
+  width: 259px;
+  height: 82px;
+  margin-left: 16px;
+  top: 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.popup2 p {
+  position: absolute;
+  width: 311px;
+  height: 220px;
+  left: 0;
+  top: 0;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 441px;
+  margin-left: 16px;
+}
+
+.close-button2 {
+  position: relative;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: white;
+  font-size: 1.8rem;
+  font-family: Inter, sans-serif;
+  color: black;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
+  margin-top: -70px;
+  margin-left: 300px;
+}
+
+.close-button-container2 {
+  display: contents;
+  flex-direction: row;
+  justify-content: end;
 }
 
 .popup hr {
@@ -255,11 +400,12 @@ body {
   background-image: url("assets/images/watermarker.png");
   width: 327px;
   height: 386px;
-  margin-top: 37px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
-  margin-bottom: 24px;
+  margin-bottom: 55px;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
 }
 
 .middle-1-container1 h2 {
@@ -312,7 +458,6 @@ body {
   background: rgb(255 255 255 / 24%);
   margin-left: 16px;
   margin-right: 14px;
-  margin-bottom: 22px;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -703,8 +848,148 @@ footer li {
     display: none;
   }
 
+  .mobile-pop {
+    display: none;
+  }
+
+  .desktop-pop {
+    display: block;
+    width: 570%;
+    height: 358px;
+    margin-bottom: 87px;
+    margin-left: 24px;
+  }
+
+  .images-paragraph {
+    display: flex;
+  }
+
+  .popup-btn1 {
+    background: #ff6b00;
+    color: white;
+    border: none;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    width: 113px;
+    height: 48px;
+    background-image: url("/assets/images/Ellipse\ \(2\).png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 80px;
+    text-align: left;
+  }
+
+  .popup-btn2 {
+    background: #ff6b00;
+    color: white;
+    border: none;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    width: 159px;
+    height: 48px;
+    margin-left: 25px;
+    background-image: url("/assets/images/github.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 130px;
+  }
+
+  .popup2 {
+    position: fixed;
+    width: 70%;
+    flex-direction: column;
+    text-align: left;
+    height: 588px;
+    color: white;
+    background: rgb(255 255 255);
+    margin-left: 142px;
+    margin-right: 142px;
+    margin-top: 60px;
+    border: #0d151e;
+    border-style: groove;
+    transform: translate(7%, -4%);
+  }
+
+  .popup2 p {
+    width: 524px;
+    height: 436px;
+    left: 0;
+    top: 0;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #344563;
+    display: contents;
+    margin-top: 50px;
+  }
+
+  .popup-btn-container {
+    display: block ruby;
+    margin-top: 120px;
+    margin-right: 20px;
+  }
+
   .popup {
     display: none;
+  }
+
+  #mob-pop {
+    display: none;
+  }
+
+  .popup2 h2 {
+    display: block ruby;
+    height: 82px;
+    margin-left: 26px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .close-button2 {
+    position: relative;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 1.8rem;
+    font-family: Inter, sans-serif;
+    color: black;
+    mix-blend-mode: normal;
+    box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
+    margin-top: -75px;
+    margin-left: 300px;
+    margin-bottom: auto;
+  }
+
+  .close-button-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 30px;
+  }
+
+  .middle-pop {
+    position: relative;
+    height: 40px;
+    background: rgb(255 255 255 / 24%);
+    margin-left: 26px;
+    margin-right: 14px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+    margin-top: 7px;
+    width: auto;
   }
 
   .name {
@@ -731,6 +1016,10 @@ footer li {
     color: white;
   }
 
+  #para {
+    margin-top: 30px;
+  }
+
   .desktop-menu {
     margin-right: 32px;
   }
@@ -748,6 +1037,13 @@ footer li {
     color: #ff6b00;
     height: 123px;
     width: 440px;
+  }
+
+  .cardbtn {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    padding-left: 0;
   }
 
   .upper-body-text h2 {
@@ -875,24 +1171,34 @@ footer li {
     list-style: none;
   }
 
+  #notseebtn {
+    display: none;
+  }
+
+  #notsee0 {
+    margin-top: 233px;
+  }
+
   #second-container {
-    background-image: url("assets/images/Blurwatermark.png");
+    /* background-image: url("assets/images/Blurwatermark.png"); */
   }
 
   #third-container {
-    background-image: url("assets/images/3watermark.png");
+    /* background-image: url("assets/images/3watermark.png"); */
+    display: grid;
   }
 
   #forth-container {
-    background-image: url("assets/images/watermarker.png");
+    /* background-image: url("assets/images/watermarker.png"); */
   }
 
   #fifth-container {
-    background-image: url("assets/images/Blurwatermark.png");
+    /* background-image: url("assets/images/Blurwatermark.png"); */
   }
 
   #sixth-container {
-    background-image: url("assets/images/3watermark.png");
+    /* background-image: url("assets/images/3watermark.png"); */
+    display: grid;
   }
 
   .about-container {
@@ -1080,29 +1386,13 @@ footer li {
     display: none;
   }
 
-  #notsee1 {
-    display: none;
-  }
-
-  #notsee2 {
-    display: none;
-  }
-
-  #notsee3 {
-    display: none;
-  }
-
-  #notsee4 {
-    display: none;
-  }
-
   #notsee5 {
-    display: none;
+    margin-bottom: auto;
   }
 
-  #first-container {
+  /* #first-container {
     background-image: url("assets/images/Whitewatermark.png");
-  }
+  } */
 
   .upper-footer {
     display: flex;
@@ -1290,7 +1580,7 @@ footer li {
   }
 
   .middle-1-container1:hover {
-    transform: scale(1.5);
+    transform: scale(1);
     transition-duration: 1s;/* Equal to scaleX(0.7) scaleY(0.7) */
   }
 
@@ -1312,7 +1602,7 @@ footer li {
 
   /* stylelint-disable-next-line no-duplicate-selectors */
   .middle-image1:hover {
-    transform: scale(1.2);
+    transform: scale(1);
     transition-duration: 1s;
   }
 }
