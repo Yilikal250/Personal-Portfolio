@@ -117,7 +117,7 @@ body {
   margin-bottom: 140px;
   width: 113px;
   height: 48px;
-  background-image: url("/assets/images/Ellipse\ \(2\).png");
+  background-image: url("./assets/images/Ellipse (2).png");
   background-repeat: no-repeat;
   background-position: right;
   background-position-x: 80px;
@@ -873,7 +873,7 @@ footer li {
     font-size: 17px;
     width: 113px;
     height: 48px;
-    background-image: url("/assets/images/Ellipse\ \(2\).png");
+    background-image: url("./assets/images/Ellipse (2).png");
     background-repeat: no-repeat;
     background-position: right;
     background-position-x: 80px;
@@ -890,7 +890,7 @@ footer li {
     width: 159px;
     height: 48px;
     margin-left: 25px;
-    background-image: url("/assets/images/github.png");
+    background-image: url("./assets/images/github.png");
     background-repeat: no-repeat;
     background-position: right;
     background-position-x: 130px;
