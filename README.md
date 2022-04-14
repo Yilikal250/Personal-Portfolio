@@ -1,17 +1,19 @@
 # Project Name:-
 
-> Drop dawn popup menu
+> Portfolio popup page 
 
 ## Description the project:-
 >
 
-> We have added a popup on the menu and 
-    When the you click (or taps) the hamburger button, the mobile menu appears.
-    When the you click (or taps) the close (X) button, the mobile menu disappears.
-    When the you click (or taps) any of the mobile menu options, the mobile menu disappears.
-    When the you click (or taps) any of the mobile menu options, a correct part of the page is displayed.
- 
-> The link for the portfolio is  " https://yilikal250.github.io/Portfolio/" 
+> I have added a popup on the menu and 
+    
+    When the user clicks (or taps) the button to check project details, the popup with details about the project appears.
+    When the user clicks (or taps) the close (X) button, the popup disappears.
+    For each project i have  stored the following pieces of data in a JavaScript object, at a minimum: name, description, featured image, technologies, link to source.
+    You need to update the main page so that the projects section is created dynamically using the information stored in that JavaScript object. Remember, all of the HTML in that section is created when the page loads.
+    
+
+
 
 
 Built With
@@ -27,11 +29,6 @@ Built With
 - Twitter: [@@TeshomeYilikal](https://twitter.com/twitterhandle)
 - LinkedIn: [teshomeyilikal250@gmail.com](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author3**:- **Luca Benavente**
-
-- GitHub: [@lucabenaventew](https://github.com/lucabenaventew)
-- Twitter: [@BenaventeLuca](https://twitter.com/BenaventeLuca)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/)
 
 ## 🤝 Contributing
 
