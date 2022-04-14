@@ -36,7 +36,7 @@ body {
   font-size: 15px;
   line-height: 20px;
   color: black;
-  margin-top: 47px;
+  margin-top: 97px;
   width: auto;
 }
 
@@ -87,10 +87,6 @@ body {
   border-style: groove;
   transform: translate(7%, 4%);
   z-index: 1;
-}
-
-.popup2 h2 {
-  display: none;
 }
 
 .desktop-pop {
@@ -166,7 +162,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  margin-top: 441px;
+  margin-top: 541px;
   margin-left: 16px;
 }
 
@@ -181,7 +177,7 @@ body {
   color: black;
   mix-blend-mode: normal;
   box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
-  margin-top: -70px;
+  margin-top: -165px;
   margin-left: 300px;
 }
 
@@ -854,7 +850,7 @@ footer li {
 
   .desktop-pop {
     display: block;
-    width: 570%;
+    width: 50%;
     height: 358px;
     margin-bottom: 87px;
     margin-left: 24px;
@@ -929,8 +925,7 @@ footer li {
 
   .popup-btn-container {
     display: block ruby;
-    margin-top: 120px;
-    margin-right: 20px;
+    margin-top: 90px;
   }
 
   .popup {
