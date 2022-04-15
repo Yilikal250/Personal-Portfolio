@@ -1,11 +1,8 @@
-/* eslint-disable linebreak-style */
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
 function togglePopup() {
-  // eslint-disable-next-line indent
   document.getElementById('popup-1').classList.toggle('active');
 }
-
-// eslint-disable-next-line no-undef
+togglePopup();
 
 function renderFirstCard() {
   const div = document.createElement('div');
@@ -155,9 +152,10 @@ function popcard(i) {
 </div>`;
 }
 
+// eslint-disable-next-line no-unused-vars
 function openPopup(i) {
   popcard(i);
-  let pop = document.querySelector('.popup2');
+  const pop = document.querySelector('.popup2');
   pop.style.display = 'flex';
 
   const blur = document.getElementById('middlesec');

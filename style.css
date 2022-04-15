@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+#popup-1 {
+  top: opx;
+}
+
 .toolbar {
   display: flex;
   justify-content: space-between;
