@@ -7,4 +7,3 @@ function togglePopup() {
 
 // eslint-disable-next-line no-undef
 Console.console.log(togglePopup());
-
