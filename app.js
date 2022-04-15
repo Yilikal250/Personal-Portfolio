@@ -169,6 +169,6 @@ function closePopup() {
 
 renderFirstCard();
 
-for (let i = 0; i < 6; i = +1) {
+for (let i = 0; i < 6; i++) {
   renderCards(i);
 }
