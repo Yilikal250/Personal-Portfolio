@@ -14,32 +14,28 @@ function renderFirstCard() {
     <div class="middle-1-container">
       <h2>Multi-Post Stories</h2>
       
-      <p>
-        A daily selection of privately personalized reads; no accounts or
-        sign-ups required. has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a standard dummy text.
-      </p>
+      <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text eversince the 1500s, when an unknown printer took a standard dummy text.</p>
 
 
       <button type="button">css</button>
       <button type="button"> html</button>
       <button type="button">bootstrap</button>
       <button type="button">Ruby</button>
-      <button type="button" onclick="openPopup()" id="see-button-one">See project</button>
+      <button type="button" onclick="openPopup(6)" id="see-button-one">See project</button>
     </div>
   </div>`;
   document.querySelector('.middle-section').appendChild(div);
 }
 
 const projects = [
+
   {
     url1: 'assets/images/watermarker.png',
-    url: 'assets/images/Whitewatermark.png',
-    idSmallbtn: 'notseebtn',
-    id: 'first-container',
-    idBtn: 'notsee0',
+    url: 'assets/images/Blurwatermark.png',
+    id: 'second-container',
+    idBtn: 'notsee1',
     name: 'Profesional Art Printing Data More',
-    name1: '',
+    name1: 'Data Dashboard Healthcare',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
 
     technologies: ['html', 'bootstrap', 'Ruby'],
@@ -100,7 +96,10 @@ const projects = [
     name1: 'Website Protfolio',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     technologies: ['html', 'bootstrap', 'Ruby'],
-
+  },
+  {
+    name1: 'Multi-Post Stories',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text eversince the 1500s, when an unknown printer took a standard dummy text.",
   },
 
 ];
@@ -117,36 +116,61 @@ function renderCards(i) {
         <p>${projects[i].description}</p>
   
         <ul class="cardbtn">
-              ${projects[i].technologies.map((tech) => `<li><button type="button" id="${projects[i].idSmallbtn}" class="middle-1-container1-btn">${tech}</button></li>`).join('')}
+              ${projects[i].technologies.map((tech) => `<li id="${projects[i].idSmallbtn}" >${tech}</li>`).join('')}
         </ul>
-        <button type="button" id="${projects[i].idBtn}" onclick="openPopup()" class="see-button-one1">See project</button>
+        <button type="button" id="${projects[i].idBtn}" onclick="openPopup(${i})" class="see-button-one1">See project</button>
       </div>`;
-  // eslint-disable-next-line prefer-const
-  let nameid = projects[i].id;
+  const nameid = projects[i].id;
 
-  // eslint-disable-next-line prefer-template
-  div.querySelector('#' + nameid).style.backgroundImage = `url("${projects[i].url}")`;
+  div.querySelector(`#${nameid}`).style.backgroundImage = `url("${projects[i].url}")`;
   document.querySelector('.middle-section').appendChild(div);
 }
 
-// eslint-disable-next-line no-unused-vars
-function openPopup() {
-  const pop = document.querySelector('.popup2');
-  // eslint-disable-next-line quotes
-  pop.style.display = "flex";
-  // eslint-disable-next-line no-var
+function popcard(i) {
+  const cont = document.querySelector('.popup2');
+  cont.innerHTML = `<h1 id="mob-pop"  >${projects[i].name}</h1>
+  <h2 id="desk-pop" >${projects[i].name1}</h2>
+ <div class="close-button-container2">
+   <button type="button"  class="close-button2" onclick="closePopup()"> &times;</button>
+ </div>
+ 
+ <ul class="cardbtn">
+   <li><button type="button" class="middle-pop">html</button></li>
+   <li> <button type="button" class="middle-pop">bootstrap</button></li>
+   <li><button type="button" class="middle-pop">Ruby On Rails</button></li>
+   
+ </ul>
+ <div class="images-paragraph">
+  <img class="mobile-pop"  src="./assets/images/popup2.png" alt="">
+  <img class="desktop-pop" src="./assets/images/bigpop.png" alt="">
+ <div class="para-btn">
+   <div id="para">
+    <p >${projects[i].description}</p>
+   </div>
+  <div class="popup-btn-container">
+      <button type="button" class="popup-btn1">See Live</button>
+      <button type="button" id="popBtn" class="popup-btn2">See Source</button>
+    </div>
+ </div>
+</div>`;
+}
+
+function openPopup(i) {
+  popcard(i);
+  let pop = document.querySelector('.popup2');
+  pop.style.display = 'flex';
+
   const blur = document.getElementById('middlesec');
   blur.classList.toggle('active');
 }
 
-// eslint-disable-next-line no-unused-vars
 function closePopup() {
   const pop = document.querySelector('.popup2');
   pop.style.display = 'none';
 }
 
 renderFirstCard();
-// eslint-disable-next-line no-plusplus
-for (let i = 0; i < 6; i++) {
+
+for (let i = 0; i < 6; i = +1) {
   renderCards(i);
 }
