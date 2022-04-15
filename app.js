@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 function togglePopup() {
   document.getElementById('popup-1').classList.toggle('active');
 }
@@ -162,6 +161,7 @@ function openPopup(i) {
   blur.classList.toggle('active');
 }
 
+// eslint-disable-next-line no-unused-vars
 function closePopup() {
   const pop = document.querySelector('.popup2');
   pop.style.display = 'none';
