@@ -851,7 +851,7 @@ footer li {
   .desktop-pop {
     display: block;
     width: 50%;
-    height: 358px;
+    height: 378px;
     margin-bottom: 87px;
     margin-left: 24px;
   }
@@ -925,7 +925,7 @@ footer li {
 
   .popup-btn-container {
     display: block ruby;
-    margin-top: 40px;
+    margin-top: 70px;
   }
 
   .popup {
@@ -943,7 +943,6 @@ footer li {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
     line-height: 44px;
     color: #172b4d;
   }
@@ -983,7 +982,7 @@ footer li {
     font-size: 15px;
     line-height: 20px;
     color: black;
-    margin-top: 7px;
+    margin-top: -17px;
     width: auto;
   }
 
