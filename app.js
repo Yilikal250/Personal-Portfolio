@@ -150,3 +150,18 @@ renderFirstCard();
 for (let i = 0; i < 6; i++) {
   renderCards(i);
 }
+
+const form = document.querySelector('#formcheck');
+const message = document.querySelector('#error-disp');
+
+// eslint-disable-next-line no-unused-vars
+function submitform() {
+  const email = document.getElementById('email-input').value;
+  if (email !== email.toLowerCase()) {
+    message.textContent = 'Email can\'t contain uppercase letters';
+    return false;
+  }
+  form.setAttribute('action', 'https://formspree.io/f/mvolbbgw');
+  form.submit();
+  return true;
+}
