@@ -169,7 +169,7 @@ function closePopup() {
 
 renderFirstCard();
 
-for (let i = 0; i < 7; i += 1) {
+for (let i = 0; i < 6; i += 1) {
   renderCards(i);
 }
 
@@ -178,23 +178,38 @@ if (1 === 10) {
   closePopup();
 }
 
-const emailplace = document.getElementById('email-input');
-const fullNameplace = document.getElementById('name-text');
-const commentplace = document.getElementById('user-text');
+const form = document.querySelector('#formcheck');
+const message = document.querySelector('#error-disp');
+
+// eslint-disable-next-line no-unused-vars
+function submitform() {
+  const email = document.getElementById('email-input').value;
+  if (email !== email.toLowerCase()) {
+    message.textContent = 'Email can\'t contain uppercase letters';
+    return false;
+  }
+  form.setAttribute('action', 'https://formspree.io/f/mvolbbgw');
+  form.submit();
+  return true;
+}
+
+const email = document.getElementById('email-input');
+const fullName = document.getElementById('user-name');
+const comment = document.getElementById('user-message');
 function storageSave() {
   const setData = {
-    name: fullNameplace.value,
-    Email: emailplace.value,
-    Comment: commentplace.value,
+    name: fullName.value,
+    Email: email.value,
+    Comment: comment.value,
   };
   localStorage.setItem('StorageData', JSON.stringify(setData));
 }
 
 function getSave() {
   const getData = JSON.parse(localStorage.getItem('StorageData'));
-  emailplace.value = getData.Email;
-  fullNameplace.value = getData.name;
-  commentplace.value = getData.Comment;
+  email.value = getData.Email;
+  fullName.value = getData.name;
+  comment.value = getData.Comment;
 }
 
 if (!localStorage.getItem('SavedData')) {
@@ -203,5 +218,5 @@ if (!localStorage.getItem('SavedData')) {
 } else {
   getSave();
 }
-const formsc = document.getElementsByClassName('.forms');
-formsc.addEventListener('change', storageSave);
+
+form.addEventListener('change', storageSave);
