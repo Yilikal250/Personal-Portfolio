@@ -151,20 +151,20 @@ function popcard(i) {
 </div>`;
 }
 
-// eslint-disable-next-line no-unused-vars
 function openPopup(i) {
   popcard(i);
   const pop = document.querySelector('.popup2');
   pop.style.display = 'flex';
-
+  document.body.style.overflow = 'hidden';
   const blur = document.getElementById('middlesec');
   blur.classList.toggle('active');
 }
 
-// eslint-disable-next-line no-unused-vars
+
 function closePopup() {
   const pop = document.querySelector('.popup2');
   pop.style.display = 'none';
+  document.body.style.overflow = 'visible';
 }
 
 renderFirstCard();
@@ -172,3 +172,9 @@ renderFirstCard();
 for (let i = 0; i < 6; i += 1 ) {
   renderCards(i);
 }
+
+if (1 === 10) {
+  openPopup();
+  closePopup();
+}
+
