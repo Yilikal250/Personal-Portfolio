@@ -96,6 +96,7 @@ const projects = [
   {
     name1: 'Multi-Post Stories',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text eversince the 1500s, when an unknown printer took a standard dummy text.",
+    technologies: ['html', 'bootstrap', 'Ruby'],
   },
 
 ];
@@ -160,7 +161,6 @@ function openPopup(i) {
   blur.classList.toggle('active');
 }
 
-
 function closePopup() {
   const pop = document.querySelector('.popup2');
   pop.style.display = 'none';
@@ -169,7 +169,7 @@ function closePopup() {
 
 renderFirstCard();
 
-for (let i = 0; i < 6; i += 1 ) {
+for (let i = 0; i < 7; i += 1) {
   renderCards(i);
 }
 
@@ -177,4 +177,3 @@ if (1 === 10) {
   openPopup();
   closePopup();
 }
-
