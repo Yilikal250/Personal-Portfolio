@@ -169,7 +169,6 @@ function closePopup() {
 
 renderFirstCard();
 
-for (let i = 0; i < 7; i += 1) {
   renderCards(i);
 }
 
@@ -177,3 +176,24 @@ if (1 === 10) {
   openPopup();
   closePopup();
 }
+
+  };
+  localStorage.setItem('StorageData', JSON.stringify(setData));
+}
+
+function getSave() {
+  const getData = JSON.parse(localStorage.getItem('StorageData'));
+  email.value = getData.Email;
+  fullName.value = getData.name;
+  comment.value = getData.Comment;
+}
+
+if (!localStorage.getItem('SavedData')) {
+  const SavedData = { name: '', Email: '', Comment: '' };
+  localStorage.setItem('SavedData', JSON.stringify(SavedData));
+} else {
+  getSave();
+}
+
+form.addEventListener('change', storageSave);
+

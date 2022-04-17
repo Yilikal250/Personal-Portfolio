@@ -22,6 +22,7 @@ body {
   height: 72px;
 }
 
+
 .pop.active {
   visibility: visible;
   opacity: 1;
