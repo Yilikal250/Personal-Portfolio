@@ -3,7 +3,7 @@
 > Portfolio popup page 
 
 ## Description the project:-
->
+> This is a personal portfolio containing the details of the projects i have worked and participated on and my contacs
 
 > I have added a popup on the menu and 
     
